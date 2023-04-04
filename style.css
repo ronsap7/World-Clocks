@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(to bottom, rgb(27, 141, 223), rgb(62, 191, 246), rgb(93, 233, 245));
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+h1:hover {
+  color: #ddd;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav li a {
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ddd;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  flex-basis: 30%;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+span:first-child {
+  width: 150px;
+  margin-right: 20px;
+}
+
+span:last-child {
+  font-size: 28px;
+  text-align: right;
+}
+
+/* Add your responsive CSS styles here */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  nav li a {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  li {
+    font-size: 18px;
+  }
+
+  span:first-child {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: linear-gradient(to right, rgb(27, 141, 223), rgb(62, 191, 246), rgb(93, 233, 245));
+  }
+
+  header {
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 72px;
+    }
+    
+    nav li a {
+    font-size: 24px;
+    padding: 20px;
+    }
+    
+    section {
+    flex-basis: 20%;
+    }
+    
+    h2 {
+    font-size: 48px;
+    }
+    
+    li {
+    font-size: 36px;
+    }
+    
+    span:first-child {
+    width: 200px;
+    margin-right: 40px;
+    }
+}
