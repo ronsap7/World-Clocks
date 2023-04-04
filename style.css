@@ -107,7 +107,10 @@ span:first-child {
 span:last-child {
   font-size: 28px;
   text-align: right;
+  transition: all 0.3s ease;
 }
+
+
 
 /* Add your responsive CSS styles here */
 
