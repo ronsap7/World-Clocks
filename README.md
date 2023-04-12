@@ -36,6 +36,4 @@ To run the project locally, follow these steps:
 - [Bootstrap](https://getbootstrap.com/): CSS framework used for responsive design and pre-built components.
 - [jQuery](https://jquery.com/): JavaScript library used for DOM manipulation and event handling.
 
-## License
 
-This project is open source and available under the [MIT License](LICENSE).
