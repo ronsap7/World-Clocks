@@ -1,69 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Time-Clocks All Over the World</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Time-Clocks All Over the World</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="#north-america">North America</a></li>
-        <li><a href="#south-america">South America</a></li>
-        <li><a href="#europe">Europe</a></li>
-        <li><a href="#asia">Asia</a></li>
-        <li><a href="#africa">Africa</a></li>
-        <li><a href="#oceania">Oceania</a></li>
+<head>
+  <meta charset="UTF-8">
+  <title>World Clock and Random Tourist spot generator</title>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.32/moment-timezone-with-data.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <!-- Add Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- Add jQuery, Popper.js, and Bootstrap 4 JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">World Clock and Random Tourist spot generator</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
       </ul>
-    </nav>
-    <main>
-      <section id="north-america">
-        <h2>North America</h2>
-        <ul>
-          <li><span>Canada:</span><span id="canada-clock"></span></li>
-          <li><span>United States:</span><span id="us-clock"></span></li>
-        </ul>
-      </section>
-      <section id="south-america">
-        <h2>South America</h2>
-        <ul>
-          <li><span>Brazil:</span><span id="brazil-clock"></span></li>
-          <li><span>Argentina:</span><span id="argentina-clock"></span></li>
-        </ul>
-      </section>
-      <section id="europe">
-        <h2>Europe</h2>
-        <ul>
-          <li><span>France:</span><span id="france-clock"></span></li>
-          <li><span>Spain:</span><span id="spain-clock"></span></li>
-          <li><span>Germany:</span><span id="germany-clock"></span></li>
-        </ul>
-      </section>
-      <section id="asia">
-        <h2>Asia</h2>
-        <ul>
-          <li><span>Japan:</span><span id="japan-clock"></span></li>
-          <li><span>China:</span><span id="china-clock"></span></li>
-        </ul>
-      </section>
-      <section id="africa">
-        <h2>Africa</h2>
-        <ul>
-          <li><span>Egypt:</span><span id="egypt-clock"></span></li>
-          <li><span>South Africa:</span><span id="south-africa-clock"></span></li>
-        </ul>
-      </section>
-      <section id="oceania">
-        <h2>Oceania</h2>
-        <ul>
-          <li><span>Australia:</span><span id="australia-clock"></span></li>
-          <li><span>New Zealand:</span><span id="new-zealand-clock"></span></li>
-        </ul>
-      </section>
-    </main>
-    <script defer src="script.js"></script>
-  </body> 
+    </div>
+  </nav>
+
+  <div class="world-clock-section">
+    <h1>World Clock</h1>
+    <!-- ... -->
+  </div>
+  <div class="container">
+    <div class="clock" id="new-york"><span class="city-name">New York</span><span class="time"></span></div>
+    <div class="clock" id="los-angeles"><span class="city-name">Los Angeles</span><span class="time"></span></div>
+    <div class="clock" id="london"><span class="city-name">London</span><span class="time"></span></div>
+    <div class="clock" id="paris"><span class="city-name">Paris</span><span class="time"></span></div>
+    <div class="clock" id="johannesburg"><span class="city-name">Johannesburg</span><span class="time"></span></div>
+    <div class="clock" id="tokyo"><span class="city-name">Tokyo</span><span class="time"></span></div>
+    <div class="clock" id="sydney"><span class="city-name">Sydney</span><span class="time"></span></div>
+    <div class="clock" id="auckland"><span class="city-name">Auckland</span><span class="time"></span></div>
+  </div>
+
+  <div class="destination-section">
+    <h2>Tourist Destinations</h2>
+    <button id="generate-btn" class="btn btn-primary">Generate Random Spots</button>
+    <div class="container">
+      <div class="row destination-row">
+        
+      </div>
+    </div>
+  </div>
+
+</body>
 </html>
