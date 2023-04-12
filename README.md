@@ -1,34 +1,41 @@
-## Time-Clocks All Over the World
+# World Clock & Random Tourist Spot Generator
 
-##### This project displays the current time for various countries around the world in a responsive web design. The user can navigate to different continents using the navigation menu to view the local time of countries within those continents.
-
-## Technologies Used
-#### HTML
-#### CSS
-#### JavaScript
-
+A simple webpage that displays the current time for different cities around the world and generates random tourist spots.
 
 ## Features
-##### Responsive design that adjusts to different screen sizes
-##### Real-time clock updates for each country
-##### Navigation menu for easier access to different continents
-##### Smooth hover and scaling animations
-##### Linear gradient background
 
+- Displays the current time for selected cities around the world.
+- Generates random tourist spots with images and names.
+- Uses HTML, CSS, JavaScript, and Bootstrap for a responsive design.
 
-## Setup
-##### Download or clone the repository to your local machine.
-##### Open the index.html file in your favorite web browser.
+## Getting Started
 
+To run the project locally, follow these steps:
 
-## File Structure
-##### index.html: Contains the main structure of the web page.
-##### style.css: Contains the styling rules for the web page, including responsive design rules.
-##### script.js: Contains the JavaScript code responsible for updating the clocks in real-time.
+1. Clone the repository or download the project as a ZIP file.
+2. Open the `index.html` file in your favorite web browser.
+3. Enjoy the World Clock and Random Tourist Spot Generator!
 
-# Usage
-##### Use the navigation menu to navigate to the desired continent.
-##### View the current local time for each country listed in the sections.
+## Technologies
 
-# Deployed Page link: 
-https://ronsap7.github.io/World-Clocks/
+- HTML: Structure and content of the web page.
+- CSS: Styling and appearance of the web page.
+- JavaScript: Functionality for generating and displaying random tourist spots.
+- Bootstrap: Responsive design and pre-built components, such as the navbar.
+
+## Project Structure
+
+- `index.html`: Main HTML file containing the structure and content of the web page.
+- `style.css`: CSS file containing the styling and appearance of the web page.
+- `script.js`: JavaScript file containing the functionality for the World Clock and Random Tourist Spot Generator.
+- `README.md`: This file, which provides an overview of the project.
+
+## Credits
+
+- [Moment.js](https://momentjs.com/): Library used for handling date and time in the World Clock.
+- [Bootstrap](https://getbootstrap.com/): CSS framework used for responsive design and pre-built components.
+- [jQuery](https://jquery.com/): JavaScript library used for DOM manipulation and event handling.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
