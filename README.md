@@ -1,4 +1,6 @@
 # World Clock & Random Tourist Spot Generator
+## Page deployment: 
+https://ronsap7.github.io/World-Clocks/
 
 A simple webpage that displays the current time for different cities around the world and generates random tourist spots.
 
@@ -36,5 +38,4 @@ To run the project locally, follow these steps:
 - [Bootstrap](https://getbootstrap.com/): CSS framework used for responsive design and pre-built components.
 - [jQuery](https://jquery.com/): JavaScript library used for DOM manipulation and event handling.
 
-## Page deployment: 
-https://ronsap7.github.io/World-Clocks/
+
